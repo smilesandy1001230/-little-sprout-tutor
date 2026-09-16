@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: little-sprout-tutor
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5
+      - key: ACCESS_CODE
+        sync: false

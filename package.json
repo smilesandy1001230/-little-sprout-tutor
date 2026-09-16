@@ -1,0 +1,16 @@
+{
+  "name": "little-sprout-tutor",
+  "version": "1.0.0",
+  "description": "小樹苗學堂 - 國小到國中數學與自然科 AI 引導式家教網頁 App",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
